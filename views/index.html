@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+        <meta http-equiv="Access-Control-Allow-Headers" content="X-Requested-With" />
+        <title>Test Email</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//www.fuelcdn.com/fuelux/3.13.0/css/fuelux.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script
+        data-main="js/main.js"
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    </head>
+    <body class="fuelux">
+        <div class="wizard" data-initialize="wizard" id="myWizard">
+            <div class="step-content">
+                <h3>Email content</h3>
+                <table>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailbody">Email body:</label></td>
+                        <td><textarea name="emailbody" id="emailbody" maxlength="300" placeholder="Máximo de 300 caracteres" rows="6" cols="50" style="resize: none;"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
